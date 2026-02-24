@@ -53,8 +53,8 @@ body::before {
 
 #messages {
     position: absolute;
-    top: 70px;    /* Start exactly after header */
-    bottom: 90px; /* End exactly before input starts */
+    top: 70px;    /* Start exactly where header ends */
+    bottom: 90px; /* End exactly where input bar starts */
     left: 0; right: 0;
     overflow-y: auto !important; /* Only this part scrolls */
     padding: 25px;
@@ -83,6 +83,7 @@ body::before {
     border-radius: 12px;
     max-width: 80%;
     word-wrap: break-word;
+    font-size: 15px;
 }
 
 .sent {
